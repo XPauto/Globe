@@ -1,7 +1,10 @@
 body {
   text-align: center;
   background-color: rgb(0, 71, 4);
+  font-family: 'Mukta', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 
 h1 {
   font-size: 50px;
