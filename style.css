@@ -1,10 +1,10 @@
 body {
   text-align: center;
   background-color: rgb(0, 71, 4);
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
 
 h1 {
   font-size: 50px;
@@ -43,22 +43,26 @@ li a {
   text-align: center;
   text-decoration: none;
   color: rgb(0, 253, 0);
+  transition: background 250ms ease-in-out, transform 150ms ease;
 }
 
 li a:hover {
   color: rgb(14, 124, 0);
   background-color: rgb(85, 168, 2);
-  border-radius: 20px;
+  border-radius: 5px;
+  transform: scale(0.99);
 }
 
 .sign_up {
   text-align: center;
-  font-size: 40px;
-  width: 400px;
+  font-size: 35px;
+  width: 300px;
   text-decoration: none;
   color: rgb(39, 96, 255);
   background-color: rgb(9, 1, 122);
   border-radius: 7px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 p {
@@ -66,4 +70,34 @@ p {
   height: 150px;
   color: rgb(41, 78, 243);
   font-size: 30px;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Mukta", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: #033775;
+  transform: scale(0.99);
+}
+
+button:focus {
+  outline: 1px solid rgb(14, 39, 92);
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
 }
