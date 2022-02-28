@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="main.js"></script>
+    <title>Globe | Home</title>
+  </head>
+  <body>
+    <h1>Globe</h1>
+    <ul>
+      <li class="navitm"><a href="index.html">Home</a></li>
+      <li class="navitm"><a href="create.html">Create</a></li>
+      <li class="navitm"><a href="explore.html">Explore</a></li>
+      <li class="navitm"><a href="sign_up.html">Sign Up</a></li>
+    </ul>
+    <br />
+    <h2 id="title" class="title">Sign Up</h2>
+    <br />
+    <br />
+    <br />
+    <form id="sign_up" action="https://formspree.io/f/xyyojzel" method="POST">
+      <label for="username">Username: </label>
+      <input type="text" name="username" id="username" />
+      <br />
+      <br />
+      <label for="pin">PIN: </label>
+      <input
+        type="number"
+        name="pin"
+        id="pin"
+        min="0"
+        max="9999"
+        onkeydown="javascript: return event.keyCode === 8 ||
+    event.keyCode === 46 ? true : !isNaN(Number(event.key))"
+      />
+      <br />
+      <br />
+      <input type="submit" name="submit" id="submit" />
+    </form>
+    <p id="status"></p>
+  </body>
+</html>
