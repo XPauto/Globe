@@ -1,5 +1,7 @@
 # Globe
-Globe is a scratch alternative.
+Globe is a place to share ideas.
 
-Currently you cannot sign-up, and that feature will soon be added.
+Currently registering is open, I finally got the scripts to work the way I want them to.
+
+( Website may be down/outdated since I might have commited new files. MAY TAKE UP TO 24 HOURS TO UPDATE! )
 
